@@ -1,4 +1,4 @@
-# api-restfull-mysql
+# Api RESTful Nodejs + Mysql + ORM Sequelize
 
 
 
