@@ -1,0 +1,38 @@
+{
+  "name": "r",
+  "version": "1.0.0",
+  "description": "Api rest Full node + mysql",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "nodemon index.js",
+    "test:unit": "jest --watch --testPathPattern=tests/unit-tests",
+    "test:intregation": "jest --watch --testPathPattern=tests/integration"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rony20191/api-restfull-mysql.git"
+  },
+  "author": "Rony20191",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rony20191/api-restfull-mysql/issues"
+  },
+  "homepage": "https://github.com/Rony20191/api-restfull-mysql#readme",
+  "devDependencies": {
+    "@babel/core": "^7.13.13",
+    "@babel/preset-env": "^7.13.12",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.2"
+  }
+}
